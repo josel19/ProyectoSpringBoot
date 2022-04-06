@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.pruebAa_nojoda_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.pruebAa.ApiRestFull2.modelo.Actor</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Film</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.FilmActor</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Language</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Category</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.FilmCategory</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Store</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Rental</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Payment</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Inventory</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Address</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Country</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.City</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Staff</class>
+    <class>com.pruebAa.ApiRestFull2.modelo.Customer</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sakila?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
